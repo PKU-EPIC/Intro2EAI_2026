@@ -4,7 +4,7 @@ layout: home
 
 ## Logistics
 * Time: Monday 3:10 - 6:00 PM
-* Location: Room 207, Teaching Building No.3, Peking University
+* Location: Room 201, Teaching Building No.3, Peking University
 
 
 ## Prerequisite
@@ -18,5 +18,5 @@ layout: home
   <!--- TODO: Office Hour and Grading --->
 
 ## Real Robot Experiment
-* There will be a hands-on experiment with humanoid or quadruped robots to validate embodied skills (time undetermined)
+* There will be a hands-on experiment with humanoid robots to validate embodied skills (time undetermined)
 
