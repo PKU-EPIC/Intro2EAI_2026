@@ -13,8 +13,9 @@ layout: home
 * Deep Learning
 
 ## Grading 
-* Assignments (60%)
+* Assignments (40%)
 * Midterm (40%)
+* Real World Experiment (20%)
   <!--- TODO: Office Hour and Grading --->
 
 ## Real Robot Experiment
