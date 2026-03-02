@@ -1,9 +1,9 @@
 # Site settings
 course_name: Introduction to Embodied AI
 course_description: ""
-course_semester: "Spring 2025"
+course_semester: "Spring 2026"
 
-baseurl: "/Intro2EAI_2025" # the subpath of your site, e.g. /blog/
+baseurl: "/Intro2EAI_2026" # the subpath of your site, e.g. /blog/
 url: "https://pku-epic.github.io" # the base hostname & protocol for your site
 
 schoolname: "Peking University"
