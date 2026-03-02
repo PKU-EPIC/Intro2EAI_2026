@@ -2,6 +2,7 @@
 type: assignment
 date: 2026-05-15T23:59:59+8:49
 title: 'Assignment #2'
+published: false
 #pdf: /static_files/assignments/Assignment2.pdf
 #attachment_part1: /static_files/assignments/Assignment2.zip.001
 #attachment_part2: /static_files/assignments/Assignment2.zip.002
