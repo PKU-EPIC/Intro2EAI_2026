@@ -1,15 +1,14 @@
 ---
 type: assignment
-date: 2026-05-15T23:59:59+8:49
+date: 2026-04-19T23:59:59+8:49
 title: 'Assignment #2'
-published: false
-#pdf: /static_files/assignments/Assignment2.pdf
-#attachment_part1: /static_files/assignments/Assignment2.zip.001
-#attachment_part2: /static_files/assignments/Assignment2.zip.002
-#attachment_part3: /static_files/assignments/Assignment2.zip.003
+pdf: /static_files/assignments/Assignment2.pdf
+attachment_part1: /static_files/assignments/Assignment2.zip.001
+attachment_part2: /static_files/assignments/Assignment2.zip.002
+attachment_part3: /static_files/assignments/Assignment2.zip.003
 #solutions: /static_files/assignments/asg_solutions.pdf
-#due_event: 
-#    type: due
-#    date: 2026-05-30T23:59:58
-#    description: 'Assignment #2 due'
+due_event: 
+   type: due
+   date: 2026-05-13T23:59:58
+   description: 'Assignment #2 due'
 ---
