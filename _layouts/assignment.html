@@ -19,6 +19,7 @@ title: page.title
     {% if page.due_event %}
     <span style="font-weight: bold">Due Date: {{ page.due | date: "%A"  }} {{ page.due_event.date |  date: site.dateformat }} 11:59 PM</span>
     {% endif %}
+    {% if page.pdf or page.attachment or page.attachment_part1 or page.attachment_part2 or page.attachment_part3 or page.solutions %}
     <p style="font-weight: bold">Download
       {% if page.pdf %}
       [<a href="{{ page.pdf | prepend: site.baseurl }}">problems</a>]
@@ -39,6 +40,7 @@ title: page.title
       [<a href="{{ page.solutions | prepend: site.baseurl }}">solutions</a>]
       {% endif %}
     </p>
+    {% endif %}
 
     <div style="color: gray;">
       <h3>Late Policy</h3>

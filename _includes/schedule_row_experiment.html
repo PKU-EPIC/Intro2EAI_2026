@@ -4,14 +4,9 @@
     <br class="date-spliter"/>{{ include.event.date | date: "%A" }}
 </div> -->
 <div class="col col-1-2" style="font-weight: bold" data-label="Date">
-    {% if event.end_date %}
-    {{ event.date | date: site.dateformat }} - {{ event.end_date | date: site.dateformat }}
-    <br class="date-spliter"/>{{ event.date | date: "%A" }} - {{ event.end_date | date: "%A" }}
-    {% else %}
     {{ event.date | date: site.dateformat }}
     {{ event.date | date: "%H:%M" }}
     <br class="date-spliter"/>{{ event.date | date: "%A" }}
-    {% endif %}
 </div>
 
 <div class="col col-2" data-label="Description">
