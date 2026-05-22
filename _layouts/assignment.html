@@ -19,7 +19,26 @@ title: page.title
     {% if page.due_event %}
     <span style="font-weight: bold">Due Date: {{ page.due | date: "%A"  }} {{ page.due_event.date |  date: site.dateformat }} 11:59 PM</span>
     {% endif %}
-    {% if page.pdf or page.attachment or page.attachment_part1 or page.attachment_part2 or page.attachment_part3 or page.solutions %}
+    {% assign has_download = false %}
+    {% if page.pdf %}
+      {% assign has_download = true %}
+    {% endif %}
+    {% if page.attachment %}
+      {% assign has_download = true %}
+    {% endif %}
+    {% if page.attachment_part1 %}
+      {% assign has_download = true %}
+    {% endif %}
+    {% if page.attachment_part2 %}
+      {% assign has_download = true %}
+    {% endif %}
+    {% if page.attachment_part3 %}
+      {% assign has_download = true %}
+    {% endif %}
+    {% if page.solutions %}
+      {% assign has_download = true %}
+    {% endif %}
+    {% if has_download %}
     <p style="font-weight: bold">Download
       {% if page.pdf %}
       [<a href="{{ page.pdf | prepend: site.baseurl }}">problems</a>]
